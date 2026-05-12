@@ -24,3 +24,10 @@ public class DemoApplication {
         };
     }
 }
+
+
+/*GET /products
+GET /products?page=1
+GET /products?sortBy=price&direction=asc
+GET /products?sortBy=price&direction=desc
+GET /products?page=0&size=5&sortBy=name*/
