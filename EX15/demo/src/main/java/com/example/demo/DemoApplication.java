@@ -30,3 +30,33 @@ public class DemoApplication {
         };
     }
 }
+
+/*Movies
+GET /movies
+GET /movies/1
+GET /movies/genre/Action
+GET /movies/language/English
+GET /movies/rating?min=8.0
+POST /movies
+→ { "title":"Avatar", "genre":"Sci-Fi", "language":"English",
+    "director":"Cameron", "duration":192, "rating":7.8,
+    "releaseDate":"2022-12-16" }
+PUT    /movies/1
+DELETE /movies/1
+Theatres
+GET /theatres
+GET /theatres/location/Chennai
+POST /theatres
+→ { "name":"Cinepolis", "location":"Delhi",
+    "totalSeats":400, "availableSeats":300 }
+PUT    /theatres/1
+DELETE /theatres/1
+Tickets
+GET /tickets
+GET /tickets/customer/John
+GET /tickets/movie/1
+GET /tickets/theatre/1
+POST /tickets?movieId=1&theatreId=1&customerName=Kumar
+     &email=kumar@gmail.com&showTime=07:00 PM&seats=2&totalAmount=500
+PUT  /tickets/1/cancel
+DELETE /tickets/1*/
