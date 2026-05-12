@@ -27,3 +27,21 @@ public class DemoApplication {
         };
     }
 }
+
+/*Trains
+GET  /trains
+GET  /trains/1
+GET  /trains/search?source=Chennai&destination=Mumbai
+POST /trains
+→ { "trainNumber":"IR105", "source":"Mumbai", "destination":"Chennai", 
+    "departureTime":"14:00", "fare":1100.00, "availableSeats":90 }
+PUT  /trains/1
+DELETE /trains/1
+Bookings
+GET  /bookings
+GET  /bookings/1
+GET  /bookings/train/1
+GET  /bookings/passenger/John
+POST /bookings?trainId=1&passengerName=Kumar&date=2024-02-05
+PUT  /bookings/1/cancel
+DELETE /bookings/1*/
