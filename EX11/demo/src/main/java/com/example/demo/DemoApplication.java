@@ -27,3 +27,21 @@ public class DemoApplication {
 	   };
    }
 }
+
+/*Doctors
+GET  /doctors
+GET  /doctors/1
+GET  /doctors/specialization/Cardiology
+POST /doctors
+→ { "name":"Dr. Kumar", "specialization":"Dermatology", "phone":"9876543214" }
+PUT  /doctors/1
+DELETE /doctors/1
+Appointments
+GET  /appointments
+GET  /appointments/doctor/1
+GET  /appointments/patient/John
+
+POST /appointments?doctorId=1&patientName=John&date=2024-02-01
+
+PUT  /appointments/1/cancel
+DELETE /appointments/1*/
