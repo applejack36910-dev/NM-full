@@ -1,0 +1,10 @@
+com\example\demo\BookingRepository.class
+com\example\demo\DemoApplication.class
+com\example\demo\BookingController.class
+com\example\demo\Flight.class
+com\example\demo\PassengerController.class
+com\example\demo\Passenger.class
+com\example\demo\FlightRepository.class
+com\example\demo\Booking.class
+com\example\demo\PassengerRepository.class
+com\example\demo\FlightController.class
