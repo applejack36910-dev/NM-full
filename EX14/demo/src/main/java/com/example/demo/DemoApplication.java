@@ -28,3 +28,25 @@ public class DemoApplication {
         };
     }
 }
+
+/*Projects
+GET  /projects
+GET  /projects/1
+GET  /projects/1/phases       ← all phases of project 1
+GET  /projects/1/effort       ← total effort in person-days
+GET  /projects/1/cost         ← total cost of project
+
+POST /projects
+→ { "projectName":"Payroll", "clientName":"TCS",
+    "startDate":"2024-03-01", "endDate":"2024-09-01",
+    "status":"ACTIVE", "totalBudget":400000.00 }
+
+PUT    /projects/1
+DELETE /projects/1
+Phases
+GET  /phases
+GET  /phases/1
+
+POST /phases?projectId=1&phaseName=Design&effortDays=10&teamSize=3&cost=30000
+
+DELETE /phases/1*/
