@@ -22,3 +22,17 @@ public class DemoApplication {
         };
     }
 }
+
+/*GET http://localhost:8080/products
+
+PUT http://localhost:8080/products/1
+
+With this JSON body:
+
+json
+
+{
+    "name": "Gaming Laptop",
+    "price": 1299.99,
+    "category": "Electronics"
+}*/
