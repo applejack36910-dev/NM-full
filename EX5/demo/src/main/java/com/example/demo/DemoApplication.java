@@ -22,3 +22,11 @@ public class DemoApplication {
         };
     }
 }
+
+/*/products/category/Electronics
+
+/products/search?keyword=key
+
+/products/price/under?max=300
+
+/products/price/above?min=300*/
