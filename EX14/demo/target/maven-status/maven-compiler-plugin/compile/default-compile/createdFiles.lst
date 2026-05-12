@@ -1,0 +1,7 @@
+com\example\demo\DemoApplication.class
+com\example\demo\PhaseRepository.class
+com\example\demo\PhaseController.class
+com\example\demo\Project.class
+com\example\demo\ProjectRepository.class
+com\example\demo\Phase.class
+com\example\demo\ProjectController.class
