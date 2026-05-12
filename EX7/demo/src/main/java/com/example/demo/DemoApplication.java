@@ -22,3 +22,9 @@ public class DemoApplication {
         };
     }
 }
+
+/*GET http://localhost:8080/products
+GET http://localhost:8080/products/expensive?minPrice=300
+GET http://localhost:8080/products/search?keyword=lap
+GET http://localhost:8080/products/search?keyword=Furniture
+*/
