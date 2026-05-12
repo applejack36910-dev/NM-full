@@ -19,3 +19,5 @@ public class DemoApplication {
         return "Hello Spring Boot";
     }
 }
+
+/*http://localhost:8080/hello*/
